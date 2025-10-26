@@ -23,11 +23,17 @@ python3 ./processors/normalize_metrics.py
 
 ---
 
+## 📊 Screenshots
+![Infra Overview](docs/screenshots/infra_overview_dashboard.png)
+![SLA & KPI](docs/screenshots/sla_kpi_dashboard.png)
+
+---
+
 ## 📁 Structure
 - collectors/: Windows and Linux sample collectors
 - processors/: Normalization to unified CSV
 - grafana/: Dashboard JSON + alert rules
-- docs/: Runbook, KPIs, screenshots placeholder
+- docs/: Runbook, KPIs, screenshots
 
 ## 👤 Author
 **Julien Chevallier** — Senior IT Manager
