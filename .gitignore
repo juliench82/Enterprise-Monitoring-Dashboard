@@ -1,0 +1,23 @@
+# Editors & OS
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Generated data/artifacts
+windows_metrics.csv
+linux_metrics.csv
+normalized_metrics.csv
+
+# Images (keep if manually curated screenshots)
+# *.png
+
+# Secrets (never commit)
+.env
+.env.*
