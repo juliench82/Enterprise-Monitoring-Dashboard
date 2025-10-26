@@ -1,5 +1,7 @@
 # Enterprise Monitoring Dashboard
 
+End-to-end infra monitoring patterns with collectors, dashboards, alerts, and runbooks.
+
 This repository contains collectors, processors, dashboards, alerts and documentation to stand up a simple, reviewable monitoring stack.
 
 ---
