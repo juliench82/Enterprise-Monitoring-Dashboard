@@ -1,0 +1,11 @@
+groups:
+  - name: sla-breach
+    rules:
+      - alert: HighErrorRate
+        expr: sum(rate(http_requests_total{status=~"5.."}[5m])) / sum(rate(http_requests_total[5m])) > 0.05
+        for: 10m
+        labels:
+          severity: critical
+        annotations:
+          summary: High 5xx error rate
+          description: More than 5% errors for 10 minutes

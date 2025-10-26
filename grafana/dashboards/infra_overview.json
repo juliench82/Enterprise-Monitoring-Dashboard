@@ -1,0 +1,20 @@
+{
+  "annotations": {"list": []},
+  "editable": true,
+  "gnetId": null,
+  "graphTooltip": 0,
+  "id": null,
+  "panels": [
+    {"type":"stat","title":"Average CPU","gridPos":{"x":0,"y":0,"w":8,"h":6}},
+    {"type":"stat","title":"Memory Usage","gridPos":{"x":8,"y":0,"w":8,"h":6}},
+    {"type":"table","title":"Disk Free (GB)","gridPos":{"x":0,"y":6,"w":24,"h":10}}
+  ],
+  "schemaVersion": 30,
+  "style": "dark",
+  "tags": ["infrastructure","kpi"],
+  "time": {"from": "now-24h", "to": "now"},
+  "timezone": "browser",
+  "title": "Infrastructure Overview",
+  "uid": "infra-overview",
+  "version": 1
+}
