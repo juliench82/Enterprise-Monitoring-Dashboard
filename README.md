@@ -38,7 +38,7 @@ python3 ./processors/normalize_metrics.py
 - docs/: Runbook, KPIs, screenshots
 
 ## 👤 Author
-**Julien Chevallier** — Senior IT Manager
+**Julien Chevallier** — Senior IT Support Engineer
 
 ---
 
